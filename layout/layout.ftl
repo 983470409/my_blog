@@ -81,7 +81,7 @@
         </#if>
         <#if is_index??>
             <link rel="stylesheet" href="${theme_base!}/source/css/widget_pin.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+            <#--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">-->
         </#if>
     </head>
     <body class="is-3-column">
