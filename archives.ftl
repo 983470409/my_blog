@@ -19,7 +19,7 @@
                         </#if>
                         <div class="media-content">
                             <div class="content">
-                                <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="${post.createTime!}">${post.createTime?string["EEE MMM d"]}</time>
+                                <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="${post.createTime!}">${post.createTime?string["MMM d"]}</time>
                                 <a href="${post.fullPath!}" class="title has-link-black-ter is-size-6 has-text-weight-normal">${post.title!}</a>
                             </div>
                         </div>

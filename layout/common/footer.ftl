@@ -2,19 +2,15 @@
     <div class="container">
         <div class="level">
             <div class="level-start has-text-centered-mobile">
-<#--                <a class="footer-logo is-block has-mb-6" href="${context!}">-->
-<#--                    <#if options.blog_logo?? && options.blog_logo!=''>-->
-<#--                        <img src="${options.blog_logo!}" alt="${blog_title!}" height="28">-->
-<#--                    <#else>-->
-<#--                        ${blog_title!}-->
-<#--                    </#if>-->
-<#--                </a>-->
+                <#--                <a class="footer-logo is-block has-mb-6" href="${context!}">-->
+                <#--                    <#if options.blog_logo?? && options.blog_logo!=''>-->
+                <#--                        <img src="${options.blog_logo!}" alt="${blog_title!}" height="28">-->
+                <#--                    <#else>-->
+                <#--                        ${blog_title!}-->
+                <#--                    </#if>-->
+                <#--                </a>-->
                 <p class="is-size-6">
                     &copy; ${.now?string('yyyy')} ${user.nickname!}&nbsp;
-                    Powered by <a href="https://halo.run/" target="_blank">Halo</a>
-                    <br>
-                    &nbsp;&nbsp;&nbsp;Theme <a href="https://github.com/imkundev/halo-theme-fantastic">Fantastic</a> by  <a href="https://github.com/imkundev" target="_blank">Quinn</a>
-                    <br />
                     <@global.footer />
                 </p>
             </div>

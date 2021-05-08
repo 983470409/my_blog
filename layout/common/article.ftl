@@ -22,7 +22,7 @@
             <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
                 <div class="level-left">
                     <time class="level-item has-text-grey"
-                          datetime="${post.createTime!}">${post.createTime?string["EEE MMM d"]}</time>
+                          datetime="${post.createTime!}">${post.createTime?string["yyyy MM/dd"]}</time>
                     <#if index>
                         <#if post.categories?? && post.categories?size gt 0>
                             <div class="level-item">

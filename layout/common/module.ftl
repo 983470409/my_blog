@@ -21,7 +21,7 @@
                                 </a>
                             </div>
                             <div class="blog-slider__content">
-                                <span class="blog-slider__code">${post.createTime?string["EEE MMM d"]}</span>
+                                <span class="blog-slider__code">${post.createTime?string["yyyy MM/dd"]}</span>
                                 <div class="blog-slider__title "><a class="title is-5" href="${post.fullPath!}">${post.title!}</a></div>
                                 <div class="blog-slider__text" content="">${post.summary!}</div>
                                 <a href="${post.fullPath!}" class="blog-slider__button">阅读更多</a>
