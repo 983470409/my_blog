@@ -35,6 +35,7 @@
 
         <!-- partial -->
         <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-        <#--<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>-->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+
     </#if>
 </#macro>
