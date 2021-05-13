@@ -130,7 +130,7 @@
                                                         <li class="is-active"><a>全部</a></li>
                                                         <@categoryTag method="list">
                                                             <#list categories as category>
-                                                                <#if category_index <= 4>
+                                                                <#if category_index <= 8>
                                                                     <li><a href="${category.fullPath!}" style="text-transform:capitalize">${category.name}</a></li>
                                                                 </#if>
                                                             </#list>
