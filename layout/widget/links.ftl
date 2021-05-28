@@ -13,9 +13,9 @@
                                 <span class="level-left">
                                     <span class="level-item">${link.name}</span>
                                 </span>
-                                <span class="level-right">
-                                    <span class="level-item tag">${link.url!}</span>
-                                </span>
+                                <#--<span class="level-right">-->
+                                    <#--<span class="level-item tag">${link.url!}</span>-->
+                                <#--</span>-->
                             </a>
                         </li>
                     </#list>
